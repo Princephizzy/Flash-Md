@@ -8,10 +8,10 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || 'zokk',
-    PREFIXE: process.env.PREFIX || "+",
-    OWNER_NAME: process.env.OWNER_NAME || "France King",
-    NUMERO_OWNER : process.env.OWNER_NUMBER || "",              
-    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "oui",
+    PREFIXE: process.env.PREFIX || "*",
+    OWNER_NAME: process.env.OWNER_NAME || "Prince Phizzy",
+    NUMERO_OWNER : process.env.OWNER_NUMBER || "+2348148701288",              
+    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "non",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'non',
     BOT : process.env.BOT_NAME || 'FLASH-MD',
     OPENAI_API_KEY : process.env.OPENAI_API_KEY || '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',
